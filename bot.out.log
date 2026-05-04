@@ -1,0 +1,1009 @@
+2026-05-04 23:51:56,978 | INFO | __main__ | Starting finance bot
+2026-05-04 23:51:58,460 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getMe "HTTP/1.1 200 OK"
+2026-05-04 23:51:58,527 | INFO | database.db | Database engine initialized
+2026-05-04 23:51:58,549 | INFO | database.db | Database schema is ready
+2026-05-04 23:51:58,661 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-04 23:51:58,668 | INFO | telegram.ext.Application | Application started
+2026-05-04 23:52:09,031 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:19,166 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:29,368 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:39,511 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:40,424 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:41,019 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:52:47,027 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:47,418 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:52:55,917 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:56,396 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:52:58,547 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:52:58,754 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-04 23:52:58,946 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/editMessageText "HTTP/1.1 200 OK"
+2026-05-04 23:52:59,114 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:07,072 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:07,670 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:11,272 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:11,474 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:14,958 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:15,157 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:21,509 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:21,965 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:26,194 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:26,401 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:28,964 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:29,162 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:53:39,202 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:49,337 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:53:59,699 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:54:09,815 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:54:20,062 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:54:30,332 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:54:40,538 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:54:50,664 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:00,912 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:06,755 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:07,385 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:55:16,990 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:25,216 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:25,696 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:55:35,372 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:39,649 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:40,023 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-04 23:55:40,205 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/editMessageText "HTTP/1.1 200 OK"
+2026-05-04 23:55:48,529 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:48,984 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:55:54,300 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:54,758 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-04 23:55:54,919 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/editMessageText "HTTP/1.1 200 OK"
+2026-05-04 23:55:55,064 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:55:58,050 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:55:58,219 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:56:08,197 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:18,431 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:28,560 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:38,808 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:49,054 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:58,980 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:56:59,407 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-04 23:57:09,131 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:57:19,269 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:57:29,494 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:57:39,633 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:57:49,775 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:57:59,973 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:58:10,114 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:58:20,288 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:58:30,533 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:58:40,769 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:58:50,931 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:59:01,087 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-04 23:59:11,237 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:08:36,109 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:08:37,686 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:08:39,209 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:08:41,472 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:52:18,194 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:52:24,316 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,100 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,292 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,505 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,511 | INFO | bot.middlewares.rate_limit | Rate limited user_id=1304642235 elapsed=0.211
+2026-05-05 00:52:25,658 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,662 | INFO | bot.middlewares.rate_limit | Rate limited user_id=1304642235 elapsed=0.362
+2026-05-05 00:52:25,789 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,794 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.690
+2026-05-05 00:52:25,949 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:25,954 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.849
+2026-05-05 00:52:26,084 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,089 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.985
+2026-05-05 00:52:26,222 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,399 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,403 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.175
+2026-05-05 00:52:26,533 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,538 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.310
+2026-05-05 00:52:26,675 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,678 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.451
+2026-05-05 00:52:26,811 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,814 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.586
+2026-05-05 00:52:26,943 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:26,945 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.718
+2026-05-05 00:52:27,089 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:27,094 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.866
+2026-05-05 00:52:27,231 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:27,401 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:27,405 | INFO | bot.middlewares.rate_limit | Rate limited user_id=6012284026 elapsed=0.169
+2026-05-05 00:52:27,578 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/sendMessage "HTTP/1.1 200 OK"
+2026-05-05 00:52:34,626 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:52:44,829 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:52:55,122 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:53:05,842 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:53:16,421 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:53:30,594 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:53:44,489 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:54:11,568 | ERROR | bot.handlers.errors | Unhandled bot error. update=None
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 292, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nurali\Documents\Codex\2026-05-04\senior-python-backend-production-ready-telegram\.venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 316, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-05-05 00:54:31,465 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:54:45,180 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:54:57,600 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:07,935 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:18,402 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:28,541 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:38,970 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:49,211 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:55:59,341 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:56:09,699 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:56:19,877 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:56:30,184 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:56:40,315 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:56:50,421 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:00,695 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:10,817 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:20,926 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:31,202 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:41,441 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:57:51,547 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:01,656 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:11,956 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:22,062 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:32,231 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:42,471 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:58:52,715 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:03,018 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:13,197 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:23,328 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:33,438 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:43,714 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 00:59:53,849 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:04,364 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:14,520 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:24,744 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:34,908 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:45,150 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:00:55,282 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:05,392 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:15,642 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:25,777 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:35,906 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:46,058 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:01:56,315 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:06,456 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:16,575 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:26,732 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:37,009 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:47,388 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:02:57,604 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:03:07,857 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:03:18,113 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:03:28,416 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
+2026-05-05 01:03:38,634 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot<redacted>/getUpdates "HTTP/1.1 200 OK"
