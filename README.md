@@ -200,6 +200,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Примечание: для стабильной сборки на Render зафиксирована версия Python в `runtime.txt` (Python 3.12).
+
 6. Добавьте environment variables:
 
 ```text
@@ -287,6 +289,49 @@ sudo systemctl status finance-bot
 ```bash
 journalctl -u finance-bot -f
 ```
+
+## Free 24/7: Oracle Cloud Free Tier (Windows setup)
+
+Коротко: это бесплатный VPS (обычно Ubuntu). Бот будет работать 24/7 независимо от твоего ноутбука.
+
+1. Создай VM (Ubuntu) в Oracle Cloud Free Tier и получи Public IP.
+2. На Windows открой PowerShell и подключись по SSH:
+
+```powershell
+ssh ubuntu@<PUBLIC_IP>
+```
+
+3. На сервере установи базовые пакеты:
+
+```bash
+sudo apt update
+sudo apt install -y python3 python3-venv python3-pip git
+```
+
+4. Деплой из git:
+
+```bash
+sudo mkdir -p /opt/finance-bot
+sudo chown -R $USER:$USER /opt/finance-bot
+git clone https://github.com/theenurali/finance.git /opt/finance-bot
+python3 -m venv /opt/finance-bot/.venv
+/opt/finance-bot/.venv/bin/python -m pip install --upgrade pip
+/opt/finance-bot/.venv/bin/python -m pip install -r /opt/finance-bot/requirements.txt
+```
+
+5. Создай `/opt/finance-bot/.env` (не публикуй токен в git):
+
+```bash
+cp /opt/finance-bot/.env.example /opt/finance-bot/.env
+nano /opt/finance-bot/.env
+```
+
+6. Установи systemd unit и запусти:
+
+```bash
+bash /opt/finance-bot/deploy/install_systemd.sh
+```
+
 
 ## Production notes
 
